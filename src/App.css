@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+
+  font-family: "Inter";
+}
+.user-icon{
+    background-color:#1A3580 ;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+.side-icon:first-child{
+    margin-top: 50px;
+}
+.side-icon{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.side-icon:hover{
+   font-size:30px ;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.side-bar{
+    display:flex;
+    flex-direction: column;
+    background-color: #1A3580;
+    width:70px;
+}
+.container{
+    padding: 0 40px;
+}
+.right-bar{
+    background-color: #E3EFF5;
+    width: 100%;
+}
+h3{
+    color: #1A3580;
+    font-weight: bolder;
+}
+.right-bar > h3{
+   color: #1A3580;
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+.first-section{
+    margin: 10px;
+    position: relative;
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(128, 128, 128, 0.459);
+}
+.first{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.display-label{
+    color: #9D9FB0;
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+    margin: 10px 10px 5px 5px;
+    color: #9D9FB0;
+}
+.first > h3{
+    margin:0 10px;
+    font-size: 15px;
+}
+.first-section > p{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+span{
+    color: #07C553;
+    font-weight: bold;
+}
+.displays{
+    display: flex;
+    flex-wrap: wrap;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 320px;
+    height: 250px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right:10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(128, 128, 128, 0.459);
+}
+.footer{
+    margin-left: 10px;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(128, 128, 128, 0.459);
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
